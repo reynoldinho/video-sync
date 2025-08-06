@@ -2,14 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: dimgray;
+    background-color: darkslateblue;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
 }
 
 h1 {
-    color: #0056b3;
+    color: grey;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
